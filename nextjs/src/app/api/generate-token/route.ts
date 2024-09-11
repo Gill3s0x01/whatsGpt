@@ -5,7 +5,7 @@ export async function POST(request: NextRequest) {
   const body = await request.json();
   const user = {
     name: "admin",
-    sub: body.user_id ?? "30972301-1e88-4093-bb1e-4f2050722fa8",
+    sub: body.user_id ?? "29958301-1e88-4994-bh1e-46h650924fh6",
   };
 
   const secret = process.env.NEXTAUTH_SECRET as string;
